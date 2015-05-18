@@ -9,6 +9,9 @@
 	      </script>
         <script async="true" src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.3.1/picturefill.min.js"></script>
         <style type="text/css">
+	        figure{
+	        	padding: 0;
+	        }
         	@media (min-width: 36em) {
 				figure {
 					display: block;
@@ -16,25 +19,26 @@
 					width: 33.3333333333333%;
 				}
 			}
+
         </style>
      </head>
     <body>
     	<figure>
-			<img sizes="100vw"
+			<img sizes="(min-width: 36em) 33.3vw, 100vw"
 				srcset="i/coast_375.jpg 375w, 
 				i/coast_480.jpg 480w, 
 				i/coast_768.jpg 768w" 
 				alt="" width="100%">
 		</figure>
 		<figure>
-			<img sizes="100vw"
+			<img sizes="(min-width: 36em) 33.3vw, 100vw"
 				srcset="i/pencils_375.jpg 375w, 
 				i/pencils_480.jpg 480w, 
 				i/pencils_768.jpg 768w" 
 				alt="" width="100%">
 		</figure>		
     	<figure>
-    	<img sizes="100vw"
+    	<img sizes="(min-width: 36em) 33.3vw, 100vw"
 				srcset="i/kids_375.jpg 375w, 
 				i/kids_480.jpg 480w, 
 				i/kids_768.jpg 768w" 
