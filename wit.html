@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+    	<script type="text/javascript">
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('worker.js').then(function(reg) {
+    // registration worked
+    console.log('Registration succeeded. Scope is ' + reg.scope);
+  }).catch(function(error) {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+};
+    	</script>
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,8 +31,8 @@
         </style>
      </head>
     <body>
-<figure><img src="//wit.wurfl.io/http://wurfl.github.io/i/coast.jpg" width="100%" alt =""></figure>
-<figure><img src="//wit.wurfl.io/http://wurfl.github.io/i/pencils.jpg" width="100%" alt =""></figure>
-<figure><img src="//wit.wurfl.io/http://wurfl.github.io/i/kids.jpg" width="100%" alt =""></figure>
+<figure><img src="//test.imgeng.in/http://wurfl.github.io/i/coast.jpg" width="100%" alt =""></figure>
+<figure><img src="//test.imgeng.in/http://wurfl.github.io/i/pencils.jpg" width="100%" alt =""></figure>
+<figure><img src="//test.imgeng.in/http://wurfl.github.io/i/kids.jpg" width="100%" alt =""></figure>
     </body>
 </html>
